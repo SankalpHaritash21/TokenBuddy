@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Custom Tokenizer Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>JS Custom Tokenizer</h1>
+
+      <label>1️⃣ Paste text to train vocab:</label>
+      <textarea id="trainText" placeholder="Paste text here..."></textarea>
+      <div class="btn-row">
+        <button id="trainBtn">Train Vocab</button>
+      </div>
+
+      <label>2️⃣ Type text to encode:</label>
+      <input id="inputText" placeholder="Type text here..." />
+      <div class="btn-row">
+        <button id="encodeBtn">Encode</button>
+        <button id="decodeBtn">Decode</button>
+      </div>
+
+      <label>📦 Tokens:</label>
+      <div id="tokens" class="output"></div>
+
+      <label>🔄 Decoded Text:</label>
+      <div id="decoded" class="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
